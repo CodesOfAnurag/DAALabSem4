@@ -39,7 +39,7 @@ void main()
     while(count<=n)
     {
         for(i=1, min=999; i<=n; i++)
-            if (!reach[i] && dist[i]<999)
+            if (!reach[i] && dist[i]<min)
             {
                 min=dist[i];
                 minind=i;
